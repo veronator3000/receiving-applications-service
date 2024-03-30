@@ -1,0 +1,11 @@
+{
+  "Version": 1,
+  "Hash": "s5iQUoO2w0exCJBpSmmew96bpbI+svSbj9aJl5zeO9g=",
+  "Source": "ReceivingApplicationService",
+  "BasePath": "_content/ReceivingApplicationService",
+  "Mode": "Default",
+  "ManifestType": "Build",
+  "ReferencedProjectsConfiguration": [],
+  "DiscoveryPatterns": [],
+  "Assets": []
+}

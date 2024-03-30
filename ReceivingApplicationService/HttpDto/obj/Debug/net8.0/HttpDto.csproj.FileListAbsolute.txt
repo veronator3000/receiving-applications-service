@@ -1,0 +1,11 @@
+/home/veronika/receiving-applications-service/ReceivingApplicationService/HttpDto/bin/Debug/net8.0/HttpDto.deps.json
+/home/veronika/receiving-applications-service/ReceivingApplicationService/HttpDto/bin/Debug/net8.0/HttpDto.dll
+/home/veronika/receiving-applications-service/ReceivingApplicationService/HttpDto/bin/Debug/net8.0/HttpDto.pdb
+/home/veronika/receiving-applications-service/ReceivingApplicationService/HttpDto/obj/Debug/net8.0/HttpDto.GeneratedMSBuildEditorConfig.editorconfig
+/home/veronika/receiving-applications-service/ReceivingApplicationService/HttpDto/obj/Debug/net8.0/HttpDto.AssemblyInfoInputs.cache
+/home/veronika/receiving-applications-service/ReceivingApplicationService/HttpDto/obj/Debug/net8.0/HttpDto.AssemblyInfo.cs
+/home/veronika/receiving-applications-service/ReceivingApplicationService/HttpDto/obj/Debug/net8.0/HttpDto.csproj.CoreCompileInputs.cache
+/home/veronika/receiving-applications-service/ReceivingApplicationService/HttpDto/obj/Debug/net8.0/HttpDto.dll
+/home/veronika/receiving-applications-service/ReceivingApplicationService/HttpDto/obj/Debug/net8.0/refint/HttpDto.dll
+/home/veronika/receiving-applications-service/ReceivingApplicationService/HttpDto/obj/Debug/net8.0/HttpDto.pdb
+/home/veronika/receiving-applications-service/ReceivingApplicationService/HttpDto/obj/Debug/net8.0/ref/HttpDto.dll
