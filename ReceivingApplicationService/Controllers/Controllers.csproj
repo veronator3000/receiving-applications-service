@@ -12,7 +12,7 @@
     </ItemGroup>
     <ItemGroup>
         <ProjectReference Include="..\Application\Application.csproj" />
-        <ProjectReference Include="..\HttpDto\HttpDto.csproj" />
+        <ProjectReference Include="..\EndpointsDto\EndpointsDto.csproj" />
     </ItemGroup>
 
 </Project>

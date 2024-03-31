@@ -14,10 +14,11 @@ public class ApplicationRepository : IApplicationRepository
     {
         _context = context;
     }
-    public async Task CreateApplication(Application application)
+    public async Task<Application> CreateApplication(Application application)
     {
         _context.Applications.Add(application);
-        await _context.SaveChangesAsync();
+         await _context.SaveChangesAsync();
+         return application;
     }
 
     public async Task<Application?> GetApplicationById(Guid applicationId)
@@ -45,19 +46,22 @@ public class ApplicationRepository : IApplicationRepository
         return await _context.Applications.ToListAsync();
     }
 
-    public async Task UpdateApplication(Application application)
+    public async Task<Application> UpdateApplication(Application application)
     {
         _context.Applications.Update(application);
         await _context.SaveChangesAsync();
+        return application;
     }
 
     public async Task DeleteApplication(Guid applicationId)
     {
         var application = await _context.Applications.FindAsync(applicationId);
+        
         if (application != null)
         {
             _context.Applications.Remove(application);
             await _context.SaveChangesAsync();
         }
     }
+    public Check
 }

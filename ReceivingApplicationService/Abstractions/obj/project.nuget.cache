@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "JrWPaLu3OTW1kJjroPRvGmnMrbn7joCjMhLxhzJ1Ms2pD3OVKMZhqbkorxxSOLhDbDtE2oZKysTesR6efnn3pA==",
+  "dgSpecHash": "NLAB1FyTGrpLwzUFdD/sspYsAx8egECGsc8X08aUeL4ykHOcKr5qvD1Hea+mY9NLhSint/W7YYecIL80LleLTQ==",
   "success": true,
   "projectFilePath": "/home/veronika/receiving-applications-service/ReceivingApplicationService/Abstractions/Abstractions.csproj",
   "expectedPackageFiles": [

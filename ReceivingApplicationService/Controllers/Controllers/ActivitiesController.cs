@@ -17,9 +17,9 @@ public class ActivitiesController
 
     [HttpGet]
     [Route("")]
-    public async Task<ResponseDto> GetActivitiesType(RequestDto requestDto)
+    public async Task<ResponseDto> GetActivitiesType(ApplicationRequestDto applicationRequestDto)
     {
-        var activitiesTypes = await _activitiesService.GetActivityTypes(requestDto);
+        var activitiesTypes = await _activitiesService.GetActivityTypes(applicationRequestDto);
         return activitiesTypes;
     }
 }

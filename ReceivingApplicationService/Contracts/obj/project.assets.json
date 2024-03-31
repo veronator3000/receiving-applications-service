@@ -199,6 +199,19 @@
           "buildTransitive/net6.0/_._": {}
         }
       },
+      "EndpointsDto/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v8.0",
+        "dependencies": {
+          "Entities": "1.0.0"
+        },
+        "compile": {
+          "bin/placeholder/EndpointsDto.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/EndpointsDto.dll": {}
+        }
+      },
       "Entities/1.0.0": {
         "type": "project",
         "framework": ".NETCoreApp,Version=v8.0",
@@ -210,19 +223,6 @@
         },
         "runtime": {
           "bin/placeholder/Entities.dll": {}
-        }
-      },
-      "HttpDto/1.0.0": {
-        "type": "project",
-        "framework": ".NETCoreApp,Version=v8.0",
-        "dependencies": {
-          "Entities": "1.0.0"
-        },
-        "compile": {
-          "bin/placeholder/HttpDto.dll": {}
-        },
-        "runtime": {
-          "bin/placeholder/HttpDto.dll": {}
         }
       }
     }
@@ -580,21 +580,21 @@
         "useSharedDesignerContext.txt"
       ]
     },
+    "EndpointsDto/1.0.0": {
+      "type": "project",
+      "path": "../EndpointsDto/EndpointsDto.csproj",
+      "msbuildProject": "../EndpointsDto/EndpointsDto.csproj"
+    },
     "Entities/1.0.0": {
       "type": "project",
       "path": "../Entities/Entities.csproj",
       "msbuildProject": "../Entities/Entities.csproj"
-    },
-    "HttpDto/1.0.0": {
-      "type": "project",
-      "path": "../HttpDto/HttpDto.csproj",
-      "msbuildProject": "../HttpDto/HttpDto.csproj"
     }
   },
   "projectFileDependencyGroups": {
     "net8.0": [
+      "EndpointsDto >= 1.0.0",
       "Entities >= 1.0.0",
-      "HttpDto >= 1.0.0",
       "Microsoft.EntityFrameworkCore >= 8.0.3"
     ]
   },
@@ -623,11 +623,11 @@
         "net8.0": {
           "targetAlias": "net8.0",
           "projectReferences": {
+            "/home/veronika/receiving-applications-service/ReceivingApplicationService/EndpointsDto/EndpointsDto.csproj": {
+              "projectPath": "/home/veronika/receiving-applications-service/ReceivingApplicationService/EndpointsDto/EndpointsDto.csproj"
+            },
             "/home/veronika/receiving-applications-service/ReceivingApplicationService/Entities/Entities.csproj": {
               "projectPath": "/home/veronika/receiving-applications-service/ReceivingApplicationService/Entities/Entities.csproj"
-            },
-            "/home/veronika/receiving-applications-service/ReceivingApplicationService/HttpDto/HttpDto.csproj": {
-              "projectPath": "/home/veronika/receiving-applications-service/ReceivingApplicationService/HttpDto/HttpDto.csproj"
             }
           }
         }

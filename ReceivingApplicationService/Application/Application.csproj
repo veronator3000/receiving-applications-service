@@ -16,6 +16,6 @@
         <ProjectReference Include="..\Abstractions\Abstractions.csproj" />
     </ItemGroup>
     <ItemGroup>
-        <ProjectReference Include="..\HttpDto\HttpDto.csproj" />
+        <ProjectReference Include="..\EndpointsDto\EndpointsDto.csproj" />
     </ItemGroup>
 </Project>

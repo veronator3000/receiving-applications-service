@@ -8,7 +8,7 @@ public class Application
     public string Name { get; set; }
     public string Description { get; set; }
     public string Outline { get; set; }
-    public DateTime? OnViewing { get; set; } 
-    public DateTime? IsDraft { get; set; }  
-    public DateTime? IsApproved { get; set; }  
+    public TimeSpan? OnViewing { get; set; } 
+    public TimeSpan? IsDraft { get; set; }  
+    public TimeSpan? IsApproved { get; set; }  
 }

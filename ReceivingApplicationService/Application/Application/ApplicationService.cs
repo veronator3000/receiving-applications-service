@@ -19,17 +19,17 @@ public class ApplicationService : IApplicationService
         _responseMapper = new ResponseMapper();
     }
     
-    public async Task<ResponseDto> CreateApplication(RequestDto requestDto)
+    public async Task<ResponseDto> CreateApplication(ApplicationRequestDto applicationRequestDto)
     {
-        var applicationEntity = _requestMapper.MapToApplication(requestDto);
+        var applicationEntity = _requestMapper.MapToApplication(applicationRequestDto);
         var res = _applicationRepository.CreateApplication(applicationEntity);
         var response = _responseMapper.MapToResponseDto(await res);
         return response;
     }
 
-    public async Task<ResponseDto> UpdateApplication(Guid id, RequestDto requestDto)
+    public async Task<ResponseDto> UpdateApplication(Guid id, ApplicationRequestDto applicationRequestDto)
     {
-        var applicationEntity = _requestMapper.MapToApplication(requestDto);
+        var applicationEntity = _requestMapper.MapToApplication(applicationRequestDto);
         var res = _applicationRepository.UpdateApplication(applicationEntity);
         var response = _responseMapper.MapToResponseDto(await res);
         return response;
@@ -37,7 +37,7 @@ public class ApplicationService : IApplicationService
 
     public Task<ResponseDto> DeleteApplication(Guid id)
     {
-        throw new NotImplementedException();
+        var appl
     }
 
     public Task<ResponseDto> SubmitApplication(Guid id)

@@ -4,5 +4,5 @@ namespace Contracts;
 
 public interface IActivitiesService
 {
-    Task<ResponseDto> GetActivityTypes(RequestDto requestDto);
+    Task<ResponseDto> GetActivityTypes(ApplicationRequestDto applicationRequestDto);
 }

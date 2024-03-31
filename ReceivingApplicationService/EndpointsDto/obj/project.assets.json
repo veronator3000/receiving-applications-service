@@ -584,11 +584,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "/home/veronika/receiving-applications-service/ReceivingApplicationService/HttpDto/HttpDto.csproj",
-      "projectName": "HttpDto",
-      "projectPath": "/home/veronika/receiving-applications-service/ReceivingApplicationService/HttpDto/HttpDto.csproj",
+      "projectUniqueName": "/home/veronika/receiving-applications-service/ReceivingApplicationService/EndpointsDto/EndpointsDto.csproj",
+      "projectName": "EndpointsDto",
+      "projectPath": "/home/veronika/receiving-applications-service/ReceivingApplicationService/EndpointsDto/EndpointsDto.csproj",
       "packagesPath": "/home/veronika/.nuget/packages/",
-      "outputPath": "/home/veronika/receiving-applications-service/ReceivingApplicationService/HttpDto/obj/",
+      "outputPath": "/home/veronika/receiving-applications-service/ReceivingApplicationService/EndpointsDto/obj/",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "/home/veronika/.nuget/NuGet/NuGet.Config"

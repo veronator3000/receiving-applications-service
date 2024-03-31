@@ -203,8 +203,8 @@
         "type": "project",
         "framework": ".NETCoreApp,Version=v8.0",
         "dependencies": {
+          "EndpointsDto": "1.0.0",
           "Entities": "1.0.0",
-          "HttpDto": "1.0.0",
           "Microsoft.EntityFrameworkCore": "8.0.3"
         },
         "compile": {
@@ -218,8 +218,8 @@
         "type": "project",
         "framework": ".NETCoreApp,Version=v8.0",
         "dependencies": {
+          "EndpointsDto": "1.0.0",
           "Entities": "1.0.0",
-          "HttpDto": "1.0.0",
           "Microsoft.EntityFrameworkCore": "8.0.3"
         },
         "compile": {
@@ -227,6 +227,19 @@
         },
         "runtime": {
           "bin/placeholder/Contracts.dll": {}
+        }
+      },
+      "EndpointsDto/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v8.0",
+        "dependencies": {
+          "Entities": "1.0.0"
+        },
+        "compile": {
+          "bin/placeholder/EndpointsDto.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/EndpointsDto.dll": {}
         }
       },
       "Entities/1.0.0": {
@@ -240,19 +253,6 @@
         },
         "runtime": {
           "bin/placeholder/Entities.dll": {}
-        }
-      },
-      "HttpDto/1.0.0": {
-        "type": "project",
-        "framework": ".NETCoreApp,Version=v8.0",
-        "dependencies": {
-          "Entities": "1.0.0"
-        },
-        "compile": {
-          "bin/placeholder/HttpDto.dll": {}
-        },
-        "runtime": {
-          "bin/placeholder/HttpDto.dll": {}
         }
       }
     }
@@ -620,22 +620,22 @@
       "path": "../Contracts/Contracts.csproj",
       "msbuildProject": "../Contracts/Contracts.csproj"
     },
+    "EndpointsDto/1.0.0": {
+      "type": "project",
+      "path": "../EndpointsDto/EndpointsDto.csproj",
+      "msbuildProject": "../EndpointsDto/EndpointsDto.csproj"
+    },
     "Entities/1.0.0": {
       "type": "project",
       "path": "../Entities/Entities.csproj",
       "msbuildProject": "../Entities/Entities.csproj"
-    },
-    "HttpDto/1.0.0": {
-      "type": "project",
-      "path": "../HttpDto/HttpDto.csproj",
-      "msbuildProject": "../HttpDto/HttpDto.csproj"
     }
   },
   "projectFileDependencyGroups": {
     "net8.0": [
       "Abstractions >= 1.0.0",
       "Contracts >= 1.0.0",
-      "HttpDto >= 1.0.0",
+      "EndpointsDto >= 1.0.0",
       "Microsoft.EntityFrameworkCore >= 8.0.3"
     ]
   },
@@ -670,8 +670,8 @@
             "/home/veronika/receiving-applications-service/ReceivingApplicationService/Contracts/Contracts.csproj": {
               "projectPath": "/home/veronika/receiving-applications-service/ReceivingApplicationService/Contracts/Contracts.csproj"
             },
-            "/home/veronika/receiving-applications-service/ReceivingApplicationService/HttpDto/HttpDto.csproj": {
-              "projectPath": "/home/veronika/receiving-applications-service/ReceivingApplicationService/HttpDto/HttpDto.csproj"
+            "/home/veronika/receiving-applications-service/ReceivingApplicationService/EndpointsDto/EndpointsDto.csproj": {
+              "projectPath": "/home/veronika/receiving-applications-service/ReceivingApplicationService/EndpointsDto/EndpointsDto.csproj"
             }
           }
         }

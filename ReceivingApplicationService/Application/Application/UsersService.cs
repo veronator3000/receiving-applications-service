@@ -5,7 +5,7 @@ namespace Application.Application;
 
 public class UsersService : IUserService
 {
-    public Task<ResponseDto> GetMyDraftApplication(RequestDto requestDto)
+    public Task<ResponseDto> GetMyDraftApplication(ApplicationRequestDto applicationRequestDto)
     {
         throw new NotImplementedException();
     }

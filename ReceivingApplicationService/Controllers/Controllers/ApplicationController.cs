@@ -1,5 +1,6 @@
 using Contracts;
 using HttpDto.Dtos;
+using HttpDto.Dtos.CreateApplicationDto;
 using Microsoft.AspNetCore.Mvc;
 
 namespace Controllers.Controllers;
@@ -24,17 +25,17 @@ public class ApplicationController
     
     [HttpPost]
     [Route("")]
-    public async Task<ResponseDto> CreateApplication([FromBody] RequestDto requestDto)
+    public async Task<CreateApplicationResponseDto> CreateApplication([FromBody] CreateApplicationRequestDto applicationRequestDto)
     {
-        var createdApplication = await _applicationService.CreateApplication(requestDto);
+        var createdApplication = await _applicationService.CreateApplication(applicationRequestDto);
         return createdApplication;
     }
     
     [HttpPut]
     [Route("{id:guid}")]
-    public async Task<ResponseDto> UpdateApplication([FromRoute] Guid id, [FromBody] RequestDto requestDto)
+    public async Task<ResponseDto> UpdateApplication([FromRoute] Guid id, [FromBody] ApplicationRequestDto applicationRequestDto)
     {
-        var updatedApplication = await _applicationService.UpdateApplication(id, requestDto);
+        var updatedApplication = await _applicationService.UpdateApplication(id, applicationRequestDto);
         return updatedApplication;
     }
     [HttpDelete]

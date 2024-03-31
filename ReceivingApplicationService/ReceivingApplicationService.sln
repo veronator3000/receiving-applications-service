@@ -18,7 +18,7 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Application", "Application\
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DataAccess", "DataAccess\DataAccess.csproj", "{0FE727C3-2CA0-4F28-B0D2-B399696A2014}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HttpDto", "HttpDto\HttpDto.csproj", "{F25DB275-1052-433A-888B-FD3F73662840}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EndpointsDto", "EndpointsDto\EndpointsDto.csproj", "{F25DB275-1052-433A-888B-FD3F73662840}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Controllers", "Controllers\Controllers.csproj", "{E54F1680-B833-4814-98E5-547DCAEF4BF6}"
 EndProject

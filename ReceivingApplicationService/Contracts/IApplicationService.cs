@@ -1,17 +1,21 @@
 using System.Diagnostics;
 using System.Net.Mime;
+using Contracts.ResultInfo;
 using Entities;
 using HttpDto.Dtos;
+using HttpDto.Dtos.ApplicationDto;
+using HttpDto.Dtos.CreateApplicationDto;
+using HttpDto.Dtos.UpdateApplicationDto;
 
 namespace Contracts;
 
 public interface IApplicationService
 {
-    Task<ResponseDto> CreateApplication(RequestDto requestDto);
-    Task<ResponseDto> UpdateApplication(Guid id, RequestDto requestDto);
-    Task<ResponseDto> DeleteApplication(Guid id);
-    Task<ResponseDto> SubmitApplication(Guid id);
-    Task<IEnumerable<ResponseDto>> GetApplications(DateTime? submitted, DateTime? unsubmitted);
-    Task<ResponseDto> GetCurrentApplicationForUser(Guid userId);
-    Task<ResponseDto> GetApplicationById(Guid id);
+    Task<CreateApplicationResponseDto> CreateApplication(CreateApplicationRequestDto applicationRequestDto);
+    Task<UpdateApplicationResponseDto> UpdateApplication(Guid id, UpdateApplicationResponseDto applicationRequestDto);
+    Task<DeleteResult> DeleteApplication(Guid id);
+    Task<SubmitResult> SubmitApplication(Guid id);
+    Task<IEnumerable<ApplicationDto>> GetApplications(DateTime? submitted, DateTime? unsubmitted);
+    Task<ApplicationDto> GetCurrentApplicationForUser(Guid userId);
+    Task<Application> GetApplicationById(Guid id);
 }

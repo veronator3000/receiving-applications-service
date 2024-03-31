@@ -17,9 +17,9 @@ public class UserController
 
     [HttpGet]
     [Route("users/{userId}/currentapplication")]
-    public async Task<ResponseDto> GetMyDraftApplication(RequestDto requestDto)
+    public async Task<ResponseDto> GetMyDraftApplication(ApplicationRequestDto applicationRequestDto)
     {
-        var draftApplication = await _userService.GetMyDraftApplication(requestDto);
+        var draftApplication = await _userService.GetMyDraftApplication(applicationRequestDto);
         return draftApplication;
     }
 

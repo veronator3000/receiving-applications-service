@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "zyItu1WHSWRAPyacreIHI4yEyWmAP7BFLg465uajiupPhR3zPpTwMiGABhH7+J5XoLyWBl3yXiA/VPy5zRizlw==",
+  "dgSpecHash": "70UJTq2H13Mpw4Bra9Y+rTVeiUx4wuqqpTs15Yh41IiUSqQGo0R5hqYnUa0YWp2VEO+Sz+AQCk34/4KcfM+nAQ==",
   "success": true,
-  "projectFilePath": "/home/veronika/receiving-applications-service/ReceivingApplicationService/HttpDto/HttpDto.csproj",
+  "projectFilePath": "/home/veronika/receiving-applications-service/ReceivingApplicationService/EndpointsDto/EndpointsDto.csproj",
   "expectedPackageFiles": [
     "/home/veronika/.nuget/packages/microsoft.entityframeworkcore/8.0.3/microsoft.entityframeworkcore.8.0.3.nupkg.sha512",
     "/home/veronika/.nuget/packages/microsoft.entityframeworkcore.abstractions/8.0.3/microsoft.entityframeworkcore.abstractions.8.0.3.nupkg.sha512",

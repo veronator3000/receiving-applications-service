@@ -26,11 +26,11 @@
           "net8.0": {
             "targetAlias": "net8.0",
             "projectReferences": {
+              "/home/veronika/receiving-applications-service/ReceivingApplicationService/EndpointsDto/EndpointsDto.csproj": {
+                "projectPath": "/home/veronika/receiving-applications-service/ReceivingApplicationService/EndpointsDto/EndpointsDto.csproj"
+              },
               "/home/veronika/receiving-applications-service/ReceivingApplicationService/Entities/Entities.csproj": {
                 "projectPath": "/home/veronika/receiving-applications-service/ReceivingApplicationService/Entities/Entities.csproj"
-              },
-              "/home/veronika/receiving-applications-service/ReceivingApplicationService/HttpDto/HttpDto.csproj": {
-                "projectPath": "/home/veronika/receiving-applications-service/ReceivingApplicationService/HttpDto/HttpDto.csproj"
               }
             }
           }
@@ -98,8 +98,8 @@
               "/home/veronika/receiving-applications-service/ReceivingApplicationService/Contracts/Contracts.csproj": {
                 "projectPath": "/home/veronika/receiving-applications-service/ReceivingApplicationService/Contracts/Contracts.csproj"
               },
-              "/home/veronika/receiving-applications-service/ReceivingApplicationService/HttpDto/HttpDto.csproj": {
-                "projectPath": "/home/veronika/receiving-applications-service/ReceivingApplicationService/HttpDto/HttpDto.csproj"
+              "/home/veronika/receiving-applications-service/ReceivingApplicationService/EndpointsDto/EndpointsDto.csproj": {
+                "projectPath": "/home/veronika/receiving-applications-service/ReceivingApplicationService/EndpointsDto/EndpointsDto.csproj"
               }
             }
           }
@@ -161,11 +161,11 @@
           "net8.0": {
             "targetAlias": "net8.0",
             "projectReferences": {
+              "/home/veronika/receiving-applications-service/ReceivingApplicationService/EndpointsDto/EndpointsDto.csproj": {
+                "projectPath": "/home/veronika/receiving-applications-service/ReceivingApplicationService/EndpointsDto/EndpointsDto.csproj"
+              },
               "/home/veronika/receiving-applications-service/ReceivingApplicationService/Entities/Entities.csproj": {
                 "projectPath": "/home/veronika/receiving-applications-service/ReceivingApplicationService/Entities/Entities.csproj"
-              },
-              "/home/veronika/receiving-applications-service/ReceivingApplicationService/HttpDto/HttpDto.csproj": {
-                "projectPath": "/home/veronika/receiving-applications-service/ReceivingApplicationService/HttpDto/HttpDto.csproj"
               }
             }
           }
@@ -230,8 +230,8 @@
               "/home/veronika/receiving-applications-service/ReceivingApplicationService/Application/Application.csproj": {
                 "projectPath": "/home/veronika/receiving-applications-service/ReceivingApplicationService/Application/Application.csproj"
               },
-              "/home/veronika/receiving-applications-service/ReceivingApplicationService/HttpDto/HttpDto.csproj": {
-                "projectPath": "/home/veronika/receiving-applications-service/ReceivingApplicationService/HttpDto/HttpDto.csproj"
+              "/home/veronika/receiving-applications-service/ReceivingApplicationService/EndpointsDto/EndpointsDto.csproj": {
+                "projectPath": "/home/veronika/receiving-applications-service/ReceivingApplicationService/EndpointsDto/EndpointsDto.csproj"
               }
             }
           }
@@ -270,6 +270,63 @@
             "Microsoft.AspNetCore.App": {
               "privateAssets": "none"
             },
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "/usr/lib/dotnet/sdk/8.0.103/PortableRuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "/home/veronika/receiving-applications-service/ReceivingApplicationService/EndpointsDto/EndpointsDto.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "/home/veronika/receiving-applications-service/ReceivingApplicationService/EndpointsDto/EndpointsDto.csproj",
+        "projectName": "EndpointsDto",
+        "projectPath": "/home/veronika/receiving-applications-service/ReceivingApplicationService/EndpointsDto/EndpointsDto.csproj",
+        "packagesPath": "/home/veronika/.nuget/packages/",
+        "outputPath": "/home/veronika/receiving-applications-service/ReceivingApplicationService/EndpointsDto/obj/",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "/home/veronika/.nuget/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "net8.0"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net8.0": {
+            "targetAlias": "net8.0",
+            "projectReferences": {
+              "/home/veronika/receiving-applications-service/ReceivingApplicationService/Entities/Entities.csproj": {
+                "projectPath": "/home/veronika/receiving-applications-service/ReceivingApplicationService/Entities/Entities.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net8.0": {
+          "targetAlias": "net8.0",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
             "Microsoft.NETCore.App": {
               "privateAssets": "all"
             }
@@ -317,63 +374,6 @@
               "version": "[8.0.3, )"
             }
           },
-          "imports": [
-            "net461",
-            "net462",
-            "net47",
-            "net471",
-            "net472",
-            "net48",
-            "net481"
-          ],
-          "assetTargetFallback": true,
-          "warn": true,
-          "frameworkReferences": {
-            "Microsoft.NETCore.App": {
-              "privateAssets": "all"
-            }
-          },
-          "runtimeIdentifierGraphPath": "/usr/lib/dotnet/sdk/8.0.103/PortableRuntimeIdentifierGraph.json"
-        }
-      }
-    },
-    "/home/veronika/receiving-applications-service/ReceivingApplicationService/HttpDto/HttpDto.csproj": {
-      "version": "1.0.0",
-      "restore": {
-        "projectUniqueName": "/home/veronika/receiving-applications-service/ReceivingApplicationService/HttpDto/HttpDto.csproj",
-        "projectName": "HttpDto",
-        "projectPath": "/home/veronika/receiving-applications-service/ReceivingApplicationService/HttpDto/HttpDto.csproj",
-        "packagesPath": "/home/veronika/.nuget/packages/",
-        "outputPath": "/home/veronika/receiving-applications-service/ReceivingApplicationService/HttpDto/obj/",
-        "projectStyle": "PackageReference",
-        "configFilePaths": [
-          "/home/veronika/.nuget/NuGet/NuGet.Config"
-        ],
-        "originalTargetFrameworks": [
-          "net8.0"
-        ],
-        "sources": {
-          "https://api.nuget.org/v3/index.json": {}
-        },
-        "frameworks": {
-          "net8.0": {
-            "targetAlias": "net8.0",
-            "projectReferences": {
-              "/home/veronika/receiving-applications-service/ReceivingApplicationService/Entities/Entities.csproj": {
-                "projectPath": "/home/veronika/receiving-applications-service/ReceivingApplicationService/Entities/Entities.csproj"
-              }
-            }
-          }
-        },
-        "warningProperties": {
-          "warnAsError": [
-            "NU1605"
-          ]
-        }
-      },
-      "frameworks": {
-        "net8.0": {
-          "targetAlias": "net8.0",
           "imports": [
             "net461",
             "net462",
