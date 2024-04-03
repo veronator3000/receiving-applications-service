@@ -1,4 +1,5 @@
 ﻿using System;
+using Entities;
 using Microsoft.EntityFrameworkCore.Migrations;
 using Npgsql.EntityFrameworkCore.PostgreSQL.Metadata;
 
@@ -25,7 +26,7 @@ namespace DataAccess.Migrations
                 {
                     table.PrimaryKey("PK_Activities", x => x.Id);
                 });
-
+            
             migrationBuilder.CreateTable(
                 name: "Applications",
                 columns: table => new
@@ -44,6 +45,10 @@ namespace DataAccess.Migrations
                 {
                     table.PrimaryKey("PK_Applications", x => x.ApplicationId);
                 });
+            migrationBuilder.InsertData(
+                table: "Activities",
+                columns: new[] { "Id", "Type", "Description" },
+                values: new object[] { 1, 0, "F40" });
         }
 
         /// <inheritdoc />

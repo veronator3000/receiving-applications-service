@@ -20,3 +20,4 @@
 /home/veronika/receiving-applications-service/new/ReceivingApplicationService/DataAccess/obj/Debug/net8.0/DataAccess.pdb
 /home/veronika/receiving-applications-service/new/ReceivingApplicationService/DataAccess/obj/Debug/net8.0/DataAccess.genruntimeconfig.cache
 /home/veronika/receiving-applications-service/new/ReceivingApplicationService/DataAccess/obj/Debug/net8.0/ref/DataAccess.dll
+/home/veronika/receiving-applications-service/new/ReceivingApplicationService/DataAccess/bin/Debug/net8.0/Microsoft.Extensions.Configuration.dll
