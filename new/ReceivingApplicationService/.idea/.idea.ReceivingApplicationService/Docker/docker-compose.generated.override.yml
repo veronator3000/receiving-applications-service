@@ -1,0 +1,24 @@
+# This is a generated file. Not intended for manual editing.
+version: "3.8"
+services:
+  web:
+    build:
+      context: "/home/veronika/receiving-applications-service/new/ReceivingApplicationService"
+      dockerfile: "WebApplication1/Dockerfile"
+      target: "base"
+    command: []
+    entrypoint:
+    - "dotnet"
+    - "/app/bin/Debug/net8.0/WebApplication1.dll"
+    environment:
+      ASPNETCORE_ENVIRONMENT: "Development"
+      DOTNET_USE_POLLING_FILE_WATCHER: "true"
+      NUGET_PACKAGES: "/home/veronika/.nuget/packages"
+      NUGET_FALLBACK_PACKAGES: "/home/veronika/.nuget/packages"
+    image: "webapplication1:dev"
+    ports: []
+    volumes:
+    - "/home/veronika/.nuget/packages:/root/.nuget/fallbackpackages"
+    - "/home/veronika/receiving-applications-service/new/ReceivingApplicationService/WebApplication1:/app:rw"
+    - "/home/veronika/receiving-applications-service/new/ReceivingApplicationService:/src:rw"
+    working_dir: "/app"

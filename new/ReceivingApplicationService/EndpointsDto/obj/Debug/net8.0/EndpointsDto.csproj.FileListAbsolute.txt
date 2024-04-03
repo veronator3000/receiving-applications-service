@@ -1,0 +1,16 @@
+/home/veronika/receiving-applications-service/new/ReceivingApplicationService/EndpointsDto/bin/Debug/net8.0/EndpointsDto.deps.json
+/home/veronika/receiving-applications-service/new/ReceivingApplicationService/EndpointsDto/bin/Debug/net8.0/EndpointsDto.dll
+/home/veronika/receiving-applications-service/new/ReceivingApplicationService/EndpointsDto/bin/Debug/net8.0/EndpointsDto.pdb
+/home/veronika/receiving-applications-service/new/ReceivingApplicationService/EndpointsDto/bin/Debug/net8.0/Entities.dll
+/home/veronika/receiving-applications-service/new/ReceivingApplicationService/EndpointsDto/bin/Debug/net8.0/Entities.pdb
+/home/veronika/receiving-applications-service/new/ReceivingApplicationService/EndpointsDto/obj/Debug/net8.0/EndpointsDto.csproj.AssemblyReference.cache
+/home/veronika/receiving-applications-service/new/ReceivingApplicationService/EndpointsDto/obj/Debug/net8.0/EndpointsDto.GeneratedMSBuildEditorConfig.editorconfig
+/home/veronika/receiving-applications-service/new/ReceivingApplicationService/EndpointsDto/obj/Debug/net8.0/EndpointsDto.AssemblyInfoInputs.cache
+/home/veronika/receiving-applications-service/new/ReceivingApplicationService/EndpointsDto/obj/Debug/net8.0/EndpointsDto.AssemblyInfo.cs
+/home/veronika/receiving-applications-service/new/ReceivingApplicationService/EndpointsDto/obj/Debug/net8.0/EndpointsDto.csproj.CoreCompileInputs.cache
+/home/veronika/receiving-applications-service/new/ReceivingApplicationService/EndpointsDto/obj/Debug/net8.0/EndpointsDto.sourcelink.json
+/home/veronika/receiving-applications-service/new/ReceivingApplicationService/EndpointsDto/obj/Debug/net8.0/EndpointsDto.csproj.CopyComplete
+/home/veronika/receiving-applications-service/new/ReceivingApplicationService/EndpointsDto/obj/Debug/net8.0/EndpointsDto.dll
+/home/veronika/receiving-applications-service/new/ReceivingApplicationService/EndpointsDto/obj/Debug/net8.0/refint/EndpointsDto.dll
+/home/veronika/receiving-applications-service/new/ReceivingApplicationService/EndpointsDto/obj/Debug/net8.0/EndpointsDto.pdb
+/home/veronika/receiving-applications-service/new/ReceivingApplicationService/EndpointsDto/obj/Debug/net8.0/ref/EndpointsDto.dll
