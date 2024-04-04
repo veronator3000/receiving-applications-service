@@ -39,7 +39,27 @@ namespace DataAccess.Migrations
 
                     b.HasKey("Id");
 
-                    b.ToTable("Activities");
+                    b.ToTable("Activities", (string)null);
+
+                    b.HasData(
+                        new
+                        {
+                            Id = 1,
+                            Description = "Доклад, 35-45 минут",
+                            Type = 0
+                        },
+                        new
+                        {
+                            Id = 2,
+                            Description = "Мастеркласс, 1-2 часа",
+                            Type = 1
+                        },
+                        new
+                        {
+                            Id = 3,
+                            Description = "Дискуссия / круглый стол, 40-50 минут",
+                            Type = 2
+                        });
                 });
 
             modelBuilder.Entity("Entities.Application", b =>

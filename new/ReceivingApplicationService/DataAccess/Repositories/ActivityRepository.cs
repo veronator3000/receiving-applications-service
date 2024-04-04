@@ -1,6 +1,3 @@
-using System;
-using System.Collections.Generic;
-using System.Threading.Tasks;
 using Abstractions.Repositories;
 using DataAccess.Repositories.Context;
 using Entities.ActivitySet;
@@ -20,20 +17,5 @@ public class ActivityRepository : IActivityRepository
     public async Task<IEnumerable<ActivityEntity>> GetAllActivities()
     {
         return await _context.Activities.ToListAsync();
-    }
-
-    public Task AddActivity(ActivityEntity activityEntity)
-    {
-        throw new NotImplementedException();
-    }
-
-    public Task UpdateActivity(ActivityEntity activityEntity)
-    {
-        throw new NotImplementedException();
-    }
-
-    public Task DeleteActivity(int id)
-    {
-        throw new NotImplementedException();
     }
 }

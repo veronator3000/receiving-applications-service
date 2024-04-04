@@ -1,11 +1,6 @@
-using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Threading.Tasks;
 using Abstractions.Repositories;
 using DataAccess.Repositories.Context;
 using Entities;
-using HttpDto.Dtos;
 using Microsoft.EntityFrameworkCore;
 
 namespace DataAccess.Repositories;
@@ -30,26 +25,6 @@ public class ApplicationRepository : IApplicationRepository
     public async Task<Application?> GetApplicationById(Guid applicationId)
     {
         return await _context.Applications.FirstOrDefaultAsync(app => app.ApplicationId == applicationId);
-    }
-
-    public async Task<IEnumerable<Application>> GetDraftApplications()
-    {
-        return await _context.Applications.Where(app => app.IsDraft != null).ToListAsync();
-    }
-
-    public async Task<IEnumerable<Application>> GetOnViewingApplications()
-    {
-        return await _context.Applications.Where(app => app.OnViewing != null).ToListAsync();
-    }
-
-    public async Task<IEnumerable<Application>> GetApprovedApplications()
-    {
-        return await _context.Applications.Where(app => app.IsApproved != null).ToListAsync();
-    }
-
-    public async Task<IEnumerable<Application>> GetAllApplications()
-    {
-        return await _context.Applications.ToListAsync();
     }
 
     public async Task<Application> UpdateApplication(Application application)

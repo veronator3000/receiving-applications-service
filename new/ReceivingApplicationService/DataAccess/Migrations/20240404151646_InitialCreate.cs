@@ -1,14 +1,15 @@
 ﻿using System;
-using Entities;
 using Microsoft.EntityFrameworkCore.Migrations;
 using Npgsql.EntityFrameworkCore.PostgreSQL.Metadata;
 
 #nullable disable
 
+#pragma warning disable CA1814 // Prefer jagged arrays over multidimensional
+
 namespace DataAccess.Migrations
 {
     /// <inheritdoc />
-    public partial class applicationAdd : Migration
+    public partial class InitialCreate : Migration
     {
         /// <inheritdoc />
         protected override void Up(MigrationBuilder migrationBuilder)
@@ -26,7 +27,7 @@ namespace DataAccess.Migrations
                 {
                     table.PrimaryKey("PK_Activities", x => x.Id);
                 });
-            
+
             migrationBuilder.CreateTable(
                 name: "Applications",
                 columns: table => new
@@ -45,10 +46,16 @@ namespace DataAccess.Migrations
                 {
                     table.PrimaryKey("PK_Applications", x => x.ApplicationId);
                 });
+
             migrationBuilder.InsertData(
                 table: "Activities",
-                columns: new[] { "Id", "Type", "Description" },
-                values: new object[] { 1, 0, "F40" });
+                columns: new[] { "Id", "Description", "Type" },
+                values: new object[,]
+                {
+                    { 1, "Доклад, 35-45 минут", 0 },
+                    { 2, "Мастеркласс, 1-2 часа", 1 },
+                    { 3, "Дискуссия / круглый стол, 40-50 минут", 2 }
+                });
         }
 
         /// <inheritdoc />

@@ -1,7 +1,6 @@
 using Entities;
 using Entities.ActivitySet;
 using Microsoft.EntityFrameworkCore;
-using Microsoft.Extensions.Configuration;
 
 namespace DataAccess.Repositories.Context;
 
@@ -31,12 +30,5 @@ public class DataBaseContext : DbContext
         );
         base.OnModelCreating(modelBuilder);
     }
-
-    // protected override void OnConfiguring(DbContextOptionsBuilder modelBuilder)
-    // {
-    //     modelBuilder.UseNpgsql(
-    //         "Server=localhost;Port=5432;Database=postgres;Username=postgres;Password=123;sslMode=disable");
-    // }
-
     
 }
